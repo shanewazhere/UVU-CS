@@ -1,0 +1,7 @@
+﻿  lab07.cpp
+  driver.cpp
+  Generating Code...
+  Skipping... (no relevant changes detected)
+  MyVector.cpp
+lab07.obj : error LNK2005: _main already defined in driver.obj
+C:\Users\Max\documents\visual studio 2015\Projects\lab07\Debug\lab07.exe : fatal error LNK1169: one or more multiply defined symbols found

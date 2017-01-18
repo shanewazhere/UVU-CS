@@ -1,0 +1,16 @@
+﻿  myException.cpp
+c:\users\max\desktop\cs1410\lab05\lab05\myexception.cpp(16): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\max\desktop\cs1410\lab05\lab05\myexception.h(14): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\max\desktop\cs1410\lab05\lab05\myexception.cpp(17): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Generating Code...
+  Compiling...
+  lab05.cpp
+c:\users\max\desktop\cs1410\lab05\lab05\lab05.cpp(15): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\max\desktop\cs1410\lab05\lab05\lab05.cpp(16): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\max\desktop\cs1410\lab05\lab05\lab05.cpp(17): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\max\desktop\cs1410\lab05\lab05\lab05.cpp(18): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\max\desktop\cs1410\lab05\lab05\lab05.cpp(31): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\max\desktop\cs1410\lab05\lab05\myexception.h(14): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Generating Code...
+  Lab05.vcxproj -> C:\Users\Max\Desktop\CS1410\Lab05\Debug\Lab05.exe
+  Lab05.vcxproj -> C:\Users\Max\Desktop\CS1410\Lab05\Debug\Lab05.pdb (Partial PDB)
