@@ -18,6 +18,7 @@
 //params: int size, int seed
 Search::Search(int size, int seed)
 {
+	srand(seed);
 	this->size = size;
 	sArray = nullptr;
 }
@@ -114,7 +115,7 @@ bool Search::iterative_binary_find(int target)
 	end = getSize();
 
 	//while there are still elements to be searched for
-	while (start < end)
+	while (start <= end)
 	{
 		//reset the middle
 		middle = (start + end) / 2;
@@ -144,16 +145,16 @@ bool Search::iterative_binary_find(int target)
 //postcondition: inits an array with tons of data 
 void Search::init_array()
 {
-	int high = getSize() * 3; // for example 20 * 3 would be a limit of 60
+	int size = getSize();
+	int high = size * 3; // for example 20 * 3 would be a limit of 60
 	int low = size - (size - 1); //and 20 - 19 would be a starting point of 1 // I did this bc it says 1-60 for an example of 20
 
 	//check if !initialized already
 	if (sArray == nullptr) {
-
 		//dynamic rrayyy
 		sArray = new int[size];
 		//fill tharray up
-		for (int i = 0; i < getSize(); i++)
+		for (int i = 0; i < size; i++)
 		{
 			if (i == 0) {
 				//first in
@@ -161,9 +162,9 @@ void Search::init_array()
 			}
 			//random number between 60 and 1
 			int randN = rand() % (high - low);
-			cout << randN;
 			sArray[i] = randN;
 		}
+	
 	}
 
 }
@@ -195,7 +196,6 @@ void Search::init_sorted_array()
 //postcondition: sets the random seed 
 void Search::set_seed(int seed)
 {
-	//ummmmmm unk.
 	srand(seed);
 }
 
@@ -203,5 +203,5 @@ void Search::set_seed(int seed)
 //postcondition returns the size of the array
 int Search::getSize()
 {
-	return sizeof(sArray);
+	return size;
 }

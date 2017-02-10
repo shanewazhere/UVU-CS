@@ -61,8 +61,10 @@ public:
 		// put the code in here.
 		for (int i = 1; i < s.size + 1; i++)
 		{
-			cout << i << ": " << s.sArray[i] << endl;
+			out << i << ": " << s.sArray[i] << endl;
 		}
+
+		return out;
 	}
 
 	//constructor
