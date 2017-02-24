@@ -1,0 +1,5 @@
+﻿  Sort.cpp
+c:\users\max\desktop\uvu cs\cs2420 - algorithms and data structures (c++, spring 2017)\mywork\5 - sort\sort\sort\sort.h(88): warning C4018: '<': signed/unsigned mismatch
+c:\users\max\desktop\uvu cs\cs2420 - algorithms and data structures (c++, spring 2017)\mywork\5 - sort\sort\sort\sort.cpp(200): warning C4018: '<=': signed/unsigned mismatch
+  Sort.vcxproj -> C:\Users\Max\Desktop\UVU CS\CS2420 - Algorithms and Data Structures (C++, Spring 2017)\myWork\5 - Sort\Sort\Debug\Sort.exe
+  Sort.vcxproj -> C:\Users\Max\Desktop\UVU CS\CS2420 - Algorithms and Data Structures (C++, Spring 2017)\myWork\5 - Sort\Sort\Debug\Sort.pdb (Partial PDB)
